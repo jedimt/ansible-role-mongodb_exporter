@@ -37,7 +37,7 @@ Example Playbook
         - "../../credentials.yml"
 
       roles:
-        - { role: ansible-role-mongodb_exporter,
+        - { role: jedimt.mongodb_exporter,
             # Download location for the prometheus mongodb_exporter tarball file
             mongodb_exporter_tarball: 'https://github.com/percona/mongodb_exporter/releases/download/v2.37.0/mongodb_exporter-2.37.0.linux-amd64.tar.gz',
 
